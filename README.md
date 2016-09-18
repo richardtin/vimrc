@@ -7,13 +7,13 @@ Author: [richardtin](https://github.com/richardtin)
 Use curl (for Mac OS X):
 
 ```
-curl -o - https://raw.github.com/richardtin/vimrc/master/auto-install.sh | sh
+curl -o - https://raw.githubusercontent.com/richardtin/vimrc/master/auto-install.sh | sh
 ```
 
 or wget (for most UNIX platforms):
 
 ```
-wget -O - https://raw.github.com/richardtin/vimrc/master/auto-install.sh | sh
+wget -O - https://raw.githubusercontent.com/richardtin/vimrc/master/auto-install.sh | sh
 ```
 
 ## INSTALL & UPGRADE PLUGIN BUNDLES
@@ -28,5 +28,7 @@ git submodule add [GIT-REPOSITORY-URL] bundle/[PLUGIN-NAME]
 ## PLUGINS
 
 - [vim-colorschemes]: a collection of colorschemes for vim
+- [vim-pathogen]: manage your runtime path
 
-[vim-colorschemes]: https://github.com/flazz/vim-colorschemes
+[vim-colorschemes]: https://github.com/flazz/vim-colorschemes.git
+[vim-pathogen]: https://github.com/tpope/vim-pathogen.git
